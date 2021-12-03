@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "roboto", sans- serif;
+}
+.body {
+  background-image: url(./tani-olorunyomi-8ly6dvEAwy8-unsplash.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.menu {
+  display: inline-block;
+  color: black;
+  font-size: 10px;
+  font-weight: 400;
+  /* margin: 10px; */
+  padding: 0px;
+  display: flex;
+}
+.link .active {
+  color: darkgreen !important;
+  font-size: 20px;
+  border-right: 200px;
+  margin: 20px 60px;
+  display: inline-block;
+}
+.link span {
+  margin: 10px 15px;
+  font-size: 20px;
+}
+
+.benphai {
+  display: flex;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 0px 500px;
+  font-size: 20px;
+}
+.benphai span {
+  margin: 20px;
+}
+.benphai button {
+  padding: 10px 10px;
+  font-size: 20px;
+  background-color: darkgreen;
+  color: white;
+}
+.content h1 {
+  align-items: center;
+  color: darkgreen;
+}
+.content button {
+  padding: 10px 10px;
+  font-size: 20px;
+  background-color: darkgreen;
+  color: white;
+}
+.content p {
+  padding: 20px 0px;
+}
+
+.content {
+  display: block;
+  text-align: left;
+  padding: 0px 100px;
+}
